@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefiantCode.Data.Azure", "DefiantCode.Data.Azure\DefiantCode.Data.Azure.csproj", "{A5B6165F-2AD3-4D9B-81CF-E0F875BF7CAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Azure|Any CPU = Azure|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5B6165F-2AD3-4D9B-81CF-E0F875BF7CAF}.Azure|Any CPU.ActiveCfg = Azure|Any CPU
+		{A5B6165F-2AD3-4D9B-81CF-E0F875BF7CAF}.Azure|Any CPU.Build.0 = Azure|Any CPU
+		{A5B6165F-2AD3-4D9B-81CF-E0F875BF7CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B6165F-2AD3-4D9B-81CF-E0F875BF7CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B6165F-2AD3-4D9B-81CF-E0F875BF7CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B6165F-2AD3-4D9B-81CF-E0F875BF7CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
