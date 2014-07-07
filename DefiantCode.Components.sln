@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30324.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefiantCode.Data.Azure", "DefiantCode.Data.Azure\DefiantCode.Data.Azure.csproj", "{A5B6165F-2AD3-4D9B-81CF-E0F875BF7CAF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefiantCode.Data.AzureStorage", "DefiantCode.Data.Azure\DefiantCode.Data.AzureStorage.csproj", "{A5B6165F-2AD3-4D9B-81CF-E0F875BF7CAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

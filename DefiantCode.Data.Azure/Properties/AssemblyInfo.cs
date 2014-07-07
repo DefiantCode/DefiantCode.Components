@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DefiantCode.Data.Azure")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("DefiantCode.Data.AzureStorage")]
+[assembly: AssemblyDescription("Wrapper around azure storage apis")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DefiantCode.Data.Azure")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCompany("Defiant Code, LLC")]
+[assembly: AssemblyProduct("DefiantCode.Data.AzureStorage")]
+[assembly: AssemblyCopyright("Copyright © Defiant Code, LLC 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

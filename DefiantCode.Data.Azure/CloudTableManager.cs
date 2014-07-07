@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Table;
 
-namespace DefiantCode.Data.Azure
+namespace DefiantCode.Data.AzureStorage
 {
     public class CloudTableManager<T> where T : TableEntity, new()
     {
