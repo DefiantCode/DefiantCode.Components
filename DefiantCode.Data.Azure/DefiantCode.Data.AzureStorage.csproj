@@ -58,6 +58,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CloudManagerBase.cs" />
+    <Compile Include="CloudQueueManager.cs" />
     <Compile Include="CloudBlobManager.cs" />
     <Compile Include="CloudTableManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
