@@ -7,8 +7,8 @@ namespace DefiantCode.Data.AzureStorage
 {
     public class CloudTableManager<T> where T : TableEntity, new()
     {
-        public CloudTableClient TableClient { get; private set; }
-        public CloudTable Table { get; private set; }
+        public CloudTableClient TableClient { get; set; }
+        public CloudTable Table { get; set; }
 
         public CloudTableManager(CloudStorageAccount storageAccount, string tableName)
             : this(storageAccount.CreateCloudTableClient(), tableName)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
@@ -20,6 +20,11 @@ namespace DefiantCode.Data.AzureStorage
             TableClient = tableClient;
             Table = TableClient.GetTableReference(tableName);
             Table.CreateIfNotExists();
+        }
+
+        public CloudTableManager()
+        {
+            
         }
 
         public virtual TableResult Insert(T entity)

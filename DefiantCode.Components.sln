@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30324.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefiantCode.Data.AzureStorage", "DefiantCode.Data.Azure\DefiantCode.Data.AzureStorage.csproj", "{A5B6165F-2AD3-4D9B-81CF-E0F875BF7CAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefiantCode.Data.AzureStorage.UnitTests", "DefiantCode.Data.AzureStorage.UnitTests\DefiantCode.Data.AzureStorage.UnitTests.csproj", "{0CF317D4-3CA8-4CAC-922A-ECF6F2ADD707}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,12 @@ Global
 		{A5B6165F-2AD3-4D9B-81CF-E0F875BF7CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5B6165F-2AD3-4D9B-81CF-E0F875BF7CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5B6165F-2AD3-4D9B-81CF-E0F875BF7CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF317D4-3CA8-4CAC-922A-ECF6F2ADD707}.Azure|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF317D4-3CA8-4CAC-922A-ECF6F2ADD707}.Azure|Any CPU.Build.0 = Release|Any CPU
+		{0CF317D4-3CA8-4CAC-922A-ECF6F2ADD707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF317D4-3CA8-4CAC-922A-ECF6F2ADD707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF317D4-3CA8-4CAC-922A-ECF6F2ADD707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF317D4-3CA8-4CAC-922A-ECF6F2ADD707}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
