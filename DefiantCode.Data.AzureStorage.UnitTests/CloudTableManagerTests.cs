@@ -42,6 +42,5 @@ namespace DefiantCode.Data.AzureStorage.UnitTests
 
     public class MyEntity : TableEntity
     {
-        
     }
 }
